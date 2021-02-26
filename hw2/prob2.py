@@ -23,7 +23,7 @@ def L2_dist(a, b):
 
 def visualize(centroids, classifications, iter):
 
-	fig = pp.figure(figsize=(5, 5), dpi=300)
+	fig = pp.figure(figsize=(5, 5), dpi=300)s
 	plot = fig.add_subplot(111, projection='3d')
 	plot.view_init(30, 10 * iter)
 	for idx, centroid in enumerate(centroids):
